@@ -1,0 +1,58 @@
+* {
+    font-family: Arial, 微软雅黑;
+}
+
+.tab {
+    width: 400px;
+    padding: 5px;
+    height: 150px;
+    margin: 100px auto;
+}
+
+.tab-nav {
+    list-style: none;
+    height: 40px;
+    margin:auto;
+    margin-bottom: 100px;
+    line-height: 30px;
+    border-bottom: 2px #C88 solid;
+}
+
+.tab-nav h1 {
+    background: #FFF;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+    height: 40px;
+    width: 178px;
+    line-height: 30px;
+    margin: 0px 10px;
+    border: 1px solid #BBB;
+    border-bottom: 2px solid #C88;
+}
+
+.tab-nav h1.on {
+    border-top: 2px solid Saddlebrown;
+    border-bottom: 2px solid #FFF;
+}
+
+form {
+    width: 320px;
+    margin: auto;
+}
+
+input {
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+a {
+    font-size: 24px;
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

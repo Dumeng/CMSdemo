@@ -1,0 +1,23 @@
+* {
+    font-family: Arial, 微软雅黑;
+    font-size: 24px;
+}
+
+.content {
+    width: 800px;
+    margin: 40px auto;
+}
+
+.article{
+    border: 1px dashed;
+}
+
+a {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
