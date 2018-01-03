@@ -135,3 +135,14 @@ h2 {
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+.submit{
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}

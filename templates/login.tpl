@@ -19,14 +19,14 @@
             <form id="form-login" onsubmit="return login();">
                 <input class="login-username" type="text" name="username" required placeholder="Username or Email">
                 <input class="login-password" type="password" name="password" required placeholder="Password">
-                <a class="login-submit" onclick="login();">LOG IN</a>
+                <input type="submit" class="submit" value="LOG IN">
             </form>
             <form id="form-sign" onsubmit="return sign();">
                 <input class="sign-username" type="text" required placeholder="Username">
                 <input class="sign-email" type="email" required placeholder="Email">
                 <input class="sign-password1" type="password" required placeholder="Password" onkeyup="checkpwd();">
                 <input class="sign-password2" type="password" required placeholder="Confirm Password" onkeyup="checkpwd();">
-                <a class="sign-submit" onclick="sign();">SIGN UP</a>
+                <input type="submit" class="submit" value="SIGN UP">
             </form>
         </div>
     </div>

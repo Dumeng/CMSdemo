@@ -28,7 +28,7 @@
                 <form id="form-pwd" onsubmit="return changePwd();">
                     <input type="password" id="pwd1" placeholder="New Password" onkeyup="checkpwd()">
                     <input type="password" id="pwd2" placeholder="Confirm Password" onkeyup="checkpwd()">
-                    <a onclick="getElementById('form-pwd').submit();">Change Password</a>
+                    <input type="submit" class="submit" value="Change Password">
                 </form>
             </div>
             {if $role=='admin'||$role=='editor'}
@@ -91,7 +91,7 @@
                                     <input type="password" id="password" required>
                                 </td>
                                 <td>
-                                    <a onclick="addUser();" class="add-user">Add New User</a>
+                                    <input type="submit" class="submit" value="Add New User">
                                 </td>
                             </tr>
                         </form>

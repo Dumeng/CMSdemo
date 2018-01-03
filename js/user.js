@@ -160,16 +160,12 @@ function checkpwd() {
     var pwd2 = $("#pwd2").val();
     if (pwd1 != pwd2) {
         document.getElementById("pwd1").setCustomValidity("Two passwords are different.");
-        return false;
     } else {
         document.getElementById("pwd1").setCustomValidity("");
-        return true;
     }
 }
 
 function changePwd() {
-    if (!checkpwd())
-        return false;
     $.ajax({
         url: 'user.php',
         type: 'POST',
